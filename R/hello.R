@@ -16,3 +16,5 @@
 testing <- function() {
   print("Even though I seem to get errors my Rtools is working properly")
 }
+
+# testing some more stuff #
