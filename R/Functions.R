@@ -75,7 +75,6 @@ time_series <- function(mydata = data, p1 = 0, d1 = 0, q1 = 0 ){
 
 }
 
-time_series(gtemp2, 0, 1, 2)
 
 # Fourth Function #
 
