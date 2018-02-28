@@ -2,6 +2,9 @@
 #library(roxygen2)
 library(ggplot2)
 library(wooldridge)
+library(tidyverse)
+library(forecast)
+library(astsa)
 
 # 3. Generate an Exponential Distribution #
 exp_density <- function(size = 100, mean = 1){
@@ -28,7 +31,6 @@ my_theme <- function(){
 
 # 4. Get top groups by frequency #
 top_n <- function(mydata = data, groupings = " ", n = 1){
-  library(tidyverse)
   x <-
   mydata %>%
     group_by_at(vars(one_of(groupings))) %>%
@@ -64,7 +66,16 @@ normal_mle <- function(mydata = data){
   return(mle)
 }
 
-# THird function #
+# Third function #
+time_series <- function(mydata = data, p1 = 0, d1 = 0, q1 = 0 ){
+
+ model <- arima(mydata, order = c(p1,d1,q1))
+ print(model)
+ plot(forecast(gtemp2, model = model))
+
+}
+
+time_series(gtemp2, 0, 1, 2)
 
 # Fourth Function #
 
