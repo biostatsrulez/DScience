@@ -1,12 +1,16 @@
-\name{Top Frequencies}
-\alias{Top Frequencies}
+\name{top_n}
+\alias{top_n}
 
 \title{
-top_n()
+Top Frequencies
+}
+
+\description{
+Calculate the frequencies of groups for some variable and display them in descending order.
 }
 
 \usage{
-Display the frequencies of a group in a dataset in descending order.
+top_n(mydata, groupings = " ", n)
 }
 
 \arguments{

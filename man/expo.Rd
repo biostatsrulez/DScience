@@ -1,12 +1,16 @@
-\name{Exponential Distribution}
-\alias{Exponential Distribution}
+\name{exp_density}
+\alias{exp_density}
 
 \title{
-exp_density()
+Generate an Exponetial Distribution
+}
+
+\description{
+Generate an Exponetioal Dist. with a specific number of obs. and mean.
 }
 
 \usage{
-Generate an Exponential Distribution.
+exp_density(size, mean)
 }
 
 \arguments{

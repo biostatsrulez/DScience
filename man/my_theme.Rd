@@ -1,16 +1,18 @@
-\name{ggplot Theme}
-\alias{ggplot Theme}
+\name{my_theme}
+\alias{my_theme}
 
 
 \title{
-my_theme()
+ggplot Theme
+}
+
+\description{
+A nice simple theme with a pretty blue background.
 }
 
 \usage{
-Use a preset theme in ggplot that has a nice blue background.
+my_theme()
 }
-
-
 
 
 \author{

@@ -1,13 +1,13 @@
-\name{Simple Time Series}
-\alias{Simple Time Series}
+\name{time_series}
+\alias{time_series}
 \title{
-time_series()
+Simple Time Series
 }
 \description{
 Specify an ARMA(p,d,q) to fit data and produce a forecast.
 }
 \usage{
-time_series()
+time_series(mydata, p1, d1, q1)
 }
 
 \arguments{
@@ -25,7 +25,7 @@ Number of moving average terms.
 }
 }
 
-}
+
 \author{
 DB
 }

@@ -77,5 +77,17 @@ time_series <- function(mydata = data, p1 = 0, d1 = 0, q1 = 0 ){
 
 
 # Fourth Function #
+guess_game <- function(max = 10, guess1 = 5, guess2 = 3){
+  x <- runif(1, min = 1, max = max)
+  diff1 <- abs(x - guess1)
+  diff2 <- abs(x - guess2)
+  if (diff1 < diff2){
+    print("Player 1 Wins! The number was")
+    print(x)
+  } else{
+    print("Player 2 Wins! The number was")
+    print(x)
+  }
+}
 
 

@@ -1,10 +1,14 @@
-\name{Power Calculation}
-\alias{Power Calculation}
+\name{power_calc}
+\alias{power_calc}
 \title{
-power_calc()
+Approximate Power Calculation
 }
 \description{
 Calculate the approximate power of a t-test.
+}
+
+\usage{
+power_calc(samples, alpha, mu0, mu1)
 }
 
 \arguments{
