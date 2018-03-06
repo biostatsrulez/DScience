@@ -2,7 +2,8 @@
 #'
 #' @author David B
 #'
-#' @description My custom ggtheme with a nice blue background.
+#' @description My custom ggtheme with a nice blue background. I plan to add to this
+#' in the future.
 #'
 #' @usage my_theme()
 #'
