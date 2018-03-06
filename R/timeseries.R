@@ -13,7 +13,7 @@
 #'
 #'
 #' @import forecast
-#' @import astsa
+#'
 #'
 #' @export
 

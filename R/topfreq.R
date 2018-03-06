@@ -11,8 +11,10 @@
 #' @param groupings Specify the variable(s) you will group by.
 #' @param n Specify the top n groups to display.
 #'
-#' @import wooldridge
+#'
 #' @import tidyverse
+#'
+#'
 #'
 #' @export
 
