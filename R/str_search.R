@@ -2,7 +2,7 @@
 #'
 #' @description Search for a specific string in text.
 #'
-#' @usage search_str(text = "Search for string", string = "string")
+#' @usage search_str(text = , string = " ")
 #'
 #' @param text A character vector to perform search on.
 #' @param string The string you want to search for in the text. Must be inside " ".
