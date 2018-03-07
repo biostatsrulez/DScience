@@ -7,7 +7,7 @@
 search_str(text = "Search for string", string = "string")
 }
 \arguments{
-\item{text}{The text to perform search on.}
+\item{text}{A character vector to perform search on.}
 
 \item{string}{The string you want to search for in the text. Must be inside " ".}
 }
