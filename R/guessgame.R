@@ -22,11 +22,16 @@ guess_game <- function(max = 10, guess1 = 5, guess2 = 3){
   x <- runif(1, min = 1, max = max)
   diff1 <- abs(x - guess1)
   diff2 <- abs(x - guess2)
+  if (guess1 <= max & guess2 <= max){
   if (diff1 < diff2){
     print("Player 1 Wins! The number was")
     print(x)
   } else{
     print("Player 2 Wins! The number was")
     print(x)
+   }
+  } else{
+    print(paste0("Please guess within the range of 0 to ", max))
   }
 }
+

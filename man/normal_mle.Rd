@@ -8,6 +8,8 @@ normal_mle(mydata= )
 }
 \arguments{
 \item{mydata}{The data you would like to estimate the parameters with.}
+
+\item{var}{This is the column number of the variable of interest in your data.fram}
 }
 \description{
 Calculate the Maximum Likelihood Estimates (MLEs) for the mean and

@@ -7,7 +7,8 @@
 my_theme()
 }
 \description{
-My custom ggtheme with a nice blue background.
+My custom ggtheme with a nice blue background. I plan to add to this
+in the future.
 }
 \author{
 David B
