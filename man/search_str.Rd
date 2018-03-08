@@ -4,7 +4,7 @@
 \alias{search_str}
 \title{String Search}
 \usage{
-search_str(text = "Search for string", string = "string")
+search_str(text = , string = " ")
 }
 \arguments{
 \item{text}{A character vector to perform search on.}
